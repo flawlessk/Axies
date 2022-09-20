@@ -46,7 +46,7 @@ const TopBar = () => {
                         </TouchableOpacity>
                     )}
                 </View>
-                {menuOpen ? <View style={{position: "absolute", width: '100%', top: 80}}><MenuModal /></View> : null}
+                {menuOpen ? <View style={{position: "absolute", width: '110%', top: 80}}><MenuModal /></View> : null}
             </View>
     );
 };
