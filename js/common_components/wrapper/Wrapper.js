@@ -6,7 +6,7 @@ import TopBar from './topBar/TopBar';
 import PropTypes from 'prop-types';
 
 const Wrapper = props => {
-  const { children, style, containerStyle, withTopBar, ...rest } = props;
+  const { children, style, withTopBar, ...rest } = props;
   return (
     <SafeAreaView >
       {!!withTopBar && <TopBar {...rest} />}

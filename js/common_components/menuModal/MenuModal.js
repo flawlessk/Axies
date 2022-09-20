@@ -1,8 +1,8 @@
 import React from 'react';
-import {Image, Modal, Text, TouchableOpacity, View, StyleSheet} from 'react-native';
+import {Image, Text, TouchableOpacity, View, StyleSheet} from 'react-native';
 import ArrowDown from '../../images/arrowDown.png';
 
-const MenuModal = ({setMenuOpen}) => {
+const MenuModal = () => {
   const [homeClick, setHomeClick] = React.useState(false);
   const [explore, setExplore] = React.useState(false);
   const [activity, setActivity] = React.useState(false);
